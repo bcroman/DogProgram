@@ -3,22 +3,22 @@ package dogprogram;
 public class Dog {
 
     //Instance Variables
-    String name;
-    String colourOfCoat;
-    String breed;
-    String size;
-    String ownerName;
-    String foodType;
-    char gender;
-    int noOfLegs;
-    int age;
-    double weight;
-    double height;
-    double distanceWalked;
-    boolean trained;
-    boolean isHungry;
-    boolean teethDirty;
-    boolean isHappy;
+    private String name;
+    private String colourOfCoat;
+    private String breed;
+    private String size;
+    private String ownerName;
+    private String foodType;
+    private char gender;
+    private int noOfLegs;
+    private int age;
+    private double weight;
+    private double height;
+    private double distanceWalked;
+    private boolean trained;
+    private boolean isHungry;
+    private boolean teethDirty;
+    private boolean isHappy;
 
     //Constructors
     Dog() {
@@ -52,6 +52,103 @@ public class Dog {
         teethDirty = false;
         isHappy = true;
         name = "Unknown";
+    }
+
+    //Getters & Setters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getColourOfCoat() {
+        return colourOfCoat;
+    }
+
+    public void setColourOfCoat(String colourOfCoat) {
+        this.colourOfCoat = colourOfCoat;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public String getSize() {
+        return size;
+    }
+
+    public void setSize(String size) {
+        this.size = size;
+    }
+
+    public String getOwnerName() {
+        return ownerName;
+    }
+
+    public void setOwnerName(String ownerName) {
+        this.ownerName = ownerName;
+    }
+
+    public String getFoodType() {
+        return foodType;
+    }
+
+    public void setFoodType(String foodType) {
+        this.foodType = foodType;
+    }
+
+    public char getGender() {
+        return gender;
+    }
+
+    public void setGender(char gender) {
+        this.gender = gender;
+    }
+
+    public int getNoOfLegs() {
+        return noOfLegs;
+    }
+
+    public void setNoOfLegs(int noOfLegs) {
+        this.noOfLegs = noOfLegs;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
+
+    public boolean isTrained() {
+        return trained;
+    }
+
+    public void setTrained(boolean trained) {
+        this.trained = trained;
     }
 
     //Methods

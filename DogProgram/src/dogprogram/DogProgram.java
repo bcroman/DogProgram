@@ -6,15 +6,14 @@ public class DogProgram {
         Dog theDog = new Dog();
         Dog otherDog = new Dog("Brown","Boxer","Small",'f',4,10,10);
 
-        theDog.name = "Max";
-        theDog.gender = 'M';
-        theDog.age = 5;
-        theDog.distanceWalked = 12;
+        theDog.setName("Max");
+        theDog.setGender('M');
+        theDog.setAge(5);
 
         theDog.displayDeatils();
         theDog.bark();
 
-        theDog.walkTheDog(theDog.distanceWalked);
+        theDog.walkTheDog(12);
         theDog.patTheDog();
         theDog.cleanTheTeeth();
         theDog.feedTheDog();
